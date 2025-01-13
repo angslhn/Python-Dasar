@@ -1,0 +1,5 @@
+// Menjalankan file code python
+-- python <nama-file>.py
+
+// Mencompile file code python ke bytecode
+-- python -m py_compile <nama-file>.py

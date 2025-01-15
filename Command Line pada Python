@@ -3,3 +3,6 @@
 
 // Mencompile file code python ke bytecode
 -- python -m py_compile <nama-file>.py
+
+// Mengupgrade pip
+-- python -m pip install --upgrade pip

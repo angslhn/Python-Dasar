@@ -1,0 +1,17 @@
+// Menjalankan file code python
+-- python <nama-file>.py
+
+// Mencompile file code python ke bytecode
+-- python -m py_compile <nama-file>.py
+
+// Menginstall pip module
+-- pip install <nama-module>
+
+// Menguninstall pip module
+-- pip uninstall <nama-module>
+
+// Mengupgrade pip
+-- python -m pip install --upgrade pip
+
+// Compile code python menjadi .exe dengan nuitka
+-- python -m nuitka --standalone --onefile --windows-icon-from-ico=<nama-file>.ico <nama-file>.py

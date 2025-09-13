@@ -1,0 +1,23 @@
+# Install Poetry
+curl -sSL https://install.python-poetry.org | python3 -
+
+# Install Khusus Arch Linux
+sudo pacman -S python-poetry
+
+# Cek Versi Poetry
+poetry --version
+
+# Buat Project
+poetry new <nama-project> && cd <nama-project>
+
+# Contoh Install Dependensi
+poetry add pyqt6 request
+
+# Install Packaging App (Optional)
+poetry add --group dev pyinstaller
+
+# Jalankan App
+poetry run python <nama-project>/main.py
+
+# Build App
+poetry run pyinstaller --onefile <nama-project>/main.py

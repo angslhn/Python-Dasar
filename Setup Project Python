@@ -1,0 +1,27 @@
+# Membuat Folder Project
+mkdir <nama-project> && cd <nama-project>
+
+# Membuat Virtual Enviroment
+python -m venv .venv
+
+# Aktivasi Virtual Env
+    # Linux / MacOS
+    source .venv/bin/activate
+
+    # Windows (PowerShell)
+    .venv\Scripts\Activate.ps1
+
+# Contoh Install Dependensi
+pip install pyqt6 request
+
+# Cek Dependensi Terinstall
+pip list
+
+# Simpan Dependensi (Bisa Reinstall di Komputer Lain)
+pip freeze > requirements.txt
+
+# Install Semua Dependensi yang Tersimpan di Daftar Dependensi
+pip install -r requirements.txt
+
+# Jalankan App
+python main.py

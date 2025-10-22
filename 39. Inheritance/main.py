@@ -23,7 +23,7 @@ class Student(Person):
         
 
 def main():
-    data: Student = Student(name="Aang Solihin", age=20, student_id=240160121001)
+    data: Student = Student(name="Aang Solihin", age=20, student_id=12555120001)
     data.info()
     
 if __name__ == "__main__":
